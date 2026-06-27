@@ -1,5 +1,5 @@
 初中历史新课标考点解读
-帮助初中生和家长基于 2022 年版义务教育历史课程标准，快速定位知识点、理解学业要求、预判考查方式、明确学习方向。
+一个 WorkBuddy 技能，帮助初中生和家长基于 2022 年版义务教育历史课程标准，快速定位知识点、理解学业要求、预判考查方式、明确学习方向。
 
 这个技能能做什么？
 输入一个具体的历史知识点、人物、制度、事件或概念，例如：
@@ -23,27 +23,19 @@
 已安装 WorkBuddy 客户端
 了解 ~/.workbuddy/skills/ 目录位置（即本地技能存放目录）
 步骤
-⚠️ 注意：本仓库名为 -，直接 clone 会生成名为 - 的文件夹。安装时必须将其重命名为 history-curriculum-guide，否则 WorkBuddy 无法正确识别。
-
 克隆仓库到本地
 
 bash
-git clone https://github.com/qiangqiangli958-tech/-.git
-重命名为正确的技能目录名
+git clone https://github.com/qiangqiangli958-tech/history-curriculum-guide.git
+这会生成一个名为 history-curriculum-guide 的文件夹。
 
-bash
-# Windows PowerShell
-Rename-Item -Path "-" -NewName "history-curriculum-guide"
-
-# macOS / Linux / Git Bash
-mv - history-curriculum-guide
 移动到 WorkBuddy 技能目录
 
 bash
 # Windows PowerShell
 Move-Item -Path "history-curriculum-guide" -Destination "$env:USERPROFILE\.workbuddy\skills\"
 
-# macOS / Linux
+# macOS / Linux / Git Bash
 mv history-curriculum-guide ~/.workbuddy/skills/
 重启或刷新 WorkBuddy，使技能生效。
 
